@@ -93,7 +93,7 @@ public class AjouterReservation implements Initializable {
                         doctorId)
                 );
                 String notificationMessage = " Réservation a été effectuée avec les détails suivants:" + NomTF.getText() + "Prénom:" + PrenomTF.getText() + "Date réservation:" + localDate;
-                SMS.sendSMS("+21626653094", notificationMessage);
+                SMS.sendSMS("NUMBER OF THE DOCTOR", notificationMessage);
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Information Dialog");
                 alert.setHeaderText(null);
