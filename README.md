@@ -15,7 +15,7 @@ Setup Instructions
 Clone Repository: Clone the project repository from GitHub using the following command:
 bash
 Copy code
-git clone https://github.com/Rouba21/MedizenJavafx.git/tree/reservation
+git clone  https://github.com/MokhlesBenna/ReservationJavaFX.git
 Install Dependencies: Ensure that you have JavaFX installed and configured in your development environment. Refer to the official JavaFX documentation for installation instructions.
 Import Project: Import the project into your preferred IDE IntelliJ IDEA as a JavaFX project.
 Run Application: Build and run the application within your IDE to launch the Reservation Management System.
